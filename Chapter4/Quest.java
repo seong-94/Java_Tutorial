@@ -1,7 +1,5 @@
 package Chapter4;
 
-import java.text.NumberFormat.Style;
-
 public class Quest {
     public static void main(String[] args) {
         int num1 = 10;
