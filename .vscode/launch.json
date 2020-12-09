@@ -1,0 +1,301 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StudentTest4",
+            "request": "launch",
+            "mainClass": "Chapter6.staticEx.StudentTest4",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StudentTest2",
+            "request": "launch",
+            "mainClass": "Chapter6.staticEx.StudentTest2",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Alone_Coding<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter4.Alone_Coding",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ContinueLoop<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter4.ContinueLoop",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DoWhileExample<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter4.DoWhileExample",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ForExample1<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter4.ForExample1",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IfExample1<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter4.IfExample1",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IfExample2<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter4.IfExample2",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NestedLoop<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter4.NestedLoop",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Quest<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter4.Quest",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwitchCase<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter4.SwitchCase",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwitchCase2<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter4.SwitchCase2",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SwiuchCase_Test<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter4.SwiuchCase_Test",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WhileExample1<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter4.WhileExample1",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Alone_Code<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter5.Alone_Code",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FuntionTest<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter5.FuntionTest",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FuntionTest2<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter5.FuntionTest2",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PersonTest<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter5.PersonTest",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Student<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter5.Student",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-StudentTest<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter5.StudentTest",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SutdentTest2<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter5.SutdentTest2",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Birthday$ThisExample<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Chapter6.Birthday$ThisExample",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Programing_and_java<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "Lecture_1.Programing_and_java",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BooleanEx<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter2.BooleanEx",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CharaterEx1<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter2.CharaterEx1",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CharaterEx2<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter2.CharaterEx2",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CharaterEx3<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter2.CharaterEx3",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Constant<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter2.Constant",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DoubleEx1<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter2.DoubleEx1",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DoubleEx2<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter2.DoubleEx2",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExplicitConversion<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter2.ExplicitConversion",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ImplicationCoverson<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter2.ImplicationCoverson",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TypeInference<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter2.TypeInference",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Variable<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter2.Variable",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Variable2<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter2.Variable2",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Chapter3_Test<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter3.Chapter3_Test",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OpearationEx4<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter3.OpearationEx4",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OperationEx<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter3.OperationEx",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OperationEx1<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter3.OperationEx1",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OperationEx2<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter3.OperationEx2",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OperationEx3<Java_tutorial_671eb83b>",
+            "request": "launch",
+            "mainClass": "chapter3.OperationEx3",
+            "projectName": "Java_tutorial_671eb83b"
+        }
+    ]
+}
