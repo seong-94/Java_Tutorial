@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "Exercise.test",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Alone",
+            "request": "launch",
+            "mainClass": "Chapter7.Alone",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StudentTest4",
             "request": "launch",
             "mainClass": "Chapter6.staticEx.StudentTest4",

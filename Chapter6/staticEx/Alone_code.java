@@ -8,7 +8,7 @@ public class Alone_code {
         
         Student3 student2 = new Student3();
         student2.setStudentName("ji su yu");
-        System.out.println(student2.getStudentName() + "  " +student2.getCardNum());
+        System.out.println(student2.getStudentName() + "  " +Student3.getCardNum());
        
         
 
