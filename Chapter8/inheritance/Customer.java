@@ -5,19 +5,26 @@ public class Customer {
     protected int customerID;
     protected String customerName;
     protected String customerGrade;
-    int bonusPoint;
-    double bonusRatio;
+    protected int bonusPoint;
+    protected double bonusRatio;
 
+    public Customer(){
+        initCustomer(); // 고객 등급과 보너스 포인트 적립률 지정 함수 호출
+    }
     public Customer (int customerID,String customerName)
     {   
         this.customerID = customerID;
         this.customerName = customerName;
         customerGrade  = "SILVER"; // basic grade
         bonusRatio = 0.01;
-        System.out.println("Customer(int,String) Call Constructor");
+        initCustomer(); // 고객 등급과 보너스 포인트 적립률 지정 함수 호출
+       // System.out.println("Customer(int,String) Call Constructor");
     }
-    
-    public int clacPrice(int price) {
+    private void initCustomer(){ // 멤버 변수의 초기화 부분
+        customerGrade = "SILVER";
+        bonusRatio = 0.01;
+    }
+    public int calcPrice(int price) {
         bonusPoint += price * bonusRatio;
         return price;
     }

@@ -10,18 +10,17 @@ public class VIPCustomer extends Customer {
         bonusRatio = 0.05;
         saleRatio = 0.1;
         this.agentID = agentID;
-        System.out.println("VIPCustomer(int, String) Call Constructor");
+        //System.out.println("VIPCustomer(int, String) Call Constructor");
     }
 
     public int getAgentID() {
         return agentID;
     }
 
-    // @Override // method overriding 오버라이딩을 하기위해서는반환형, 
-    // 메서드 이름,매게변숙 개수,매개변수 자료형이 반드시 같아야한다.
-    public int calcPrice(int price) {
+    @Override // method overriding 오버라이딩을 하기위해서는반환형, 메서드 이름,매게변숙 개수,매개변수 자료형이 반드시 같아야한다.
+    public int calcPrice(int price){
         bonusPoint += price * bonusRatio;
-        return price;
+        return price -(int)(price *saleRatio); 
     }
 
     public String showCustomerInfo() {

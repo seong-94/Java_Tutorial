@@ -18,5 +18,7 @@ public class CustomerTest1 {
 
         Customer vs = new VIPCustomer(10030, "YU", 100);
         System.out.print(vs.showCustomerInfo());
+
+    
     }
 }
