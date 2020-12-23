@@ -4,7 +4,7 @@ public class advanced extends PlayerLevel {
     
     @Override
     public void run() {
-        // TODO Auto-generated method stub
+        
         System.out.println("빨리 달립니다.");
     }
     @Override
