@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FileCopyTest",
+            "request": "launch",
+            "mainClass": "Chapter15.decorator.FileCopyTest",
+            "projectName": "Java_tutorial_671eb83b"
+        },
+        {
+            "type": "java",
             "name": "Launch InnerTest",
             "request": "launch",
             "mainClass": "Chapter13.innerclass.InnerTest",
