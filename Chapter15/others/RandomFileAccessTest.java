@@ -26,7 +26,8 @@ public class RandomFileAccessTest {
         /** 
          * 파일 포인터어 20 까지 이동한뒤에 EOFE Exception 이 뜨기때문에 파일포인터 초기화를 해야한다.
          */
-
+        System.out.println("파일 포인터 위치 : " + rf.getFilePointer());
+        
         int i = rf.readInt();
         double b = rf.readDouble();
         String str = rf.readUTF();
@@ -35,6 +36,7 @@ public class RandomFileAccessTest {
         System.out.println(b);
         System.out.println(str);
 
+        System.out.println("파일 포인터 위치 : " + rf.getFilePointer());
 
     }
 }
