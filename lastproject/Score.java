@@ -9,7 +9,7 @@ public class Score {
     Score() {
     }
 
-    public Score(Subject subject, int point, int studentId) {
+    public Score(int studentId,Subject subject, int point ) {
         this.point = point;
         this.studentId = studentId;
         this.subject = subject;

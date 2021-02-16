@@ -8,27 +8,26 @@ public class Student {
     private int studentId;
     private Subject major;
     /**
-     * 학생이 수강한 과목의 리스트 addSubjectScore()메서드가 호출
-     * 되면 이 리스에 추가됨.
+     * 학생이 수강한 과목의 리스트 addSubjectScore()메서드가 호출 되면 이 리스에 추가됨.
      */
 
-    private ArrayList<Score> scoreList = new ArrayList<>(); 
+    private ArrayList<Score> scoreList = new ArrayList<Score>();
+
+    
+    Student() {
+    }
+    
+    public Student(int studentId, String name, Subject major) {
+        
+        this.name = name;
+        this.studentId = studentId;
+        this.major = major;
+        
+    }
     
     public void addSubjectScoere(Score score) {
         scoreList.add(score);
     }
-
-    Student() {
-    }
-
-    public Student(String name, Subject major, int studentId) {
-
-        this.name = name;
-        this.studentId = studentId;
-        this.major = major;
-
-    }
-
     public ArrayList<Score> getScoreList() {
         return scoreList;
     }
@@ -37,7 +36,7 @@ public class Student {
         return major;
     }
 
-    public String getName() {
+    public String getStduentName() {
         return name;
     }
 
@@ -45,7 +44,7 @@ public class Student {
         return studentId;
     }
 
-    public void setName(String name) {
+    public void setStudentName(String name) {
         this.name = name;
     }
 
